@@ -2,7 +2,6 @@ FONTS:
 SourceSerif4Variable-Roman-HelloWorld.otf
 
 PROFILES:
-downgrade-cff2.txt
 
 SUBSETS:
 Hello World

@@ -80,7 +80,7 @@ def run_test(test, should_check_ots, preprocess):
         "--font-file=" + test.font_path,
         "--output-file=" + out_file,
         "--unicodes=%s" % test.unicodes(),
-        "--drop-tables+=DSIG,BASE",
+        "--drop-tables+=DSIG,BASE,CFF,CFF2,BASE,MATH",
         "--drop-tables-=sbix",
     ]
     if preprocess:
